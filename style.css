@@ -1,0 +1,37 @@
+:root {
+    --bg : rgb(153, 188, 194);;
+    --col1 : rgb(95, 146, 171);
+    --col2 : rgb(228, 241, 242);
+    --col3 : rgb(247, 248, 255);
+    --col1_ : rgba(106, 163, 203, 0.5);
+    --col3_ : rgba(249, 247, 255, 0.5);
+}
+
+
+body {
+    background-color : var(--bg);
+    background-attachment: fixed;
+    font-family: "Lucida Console", monospace;
+    color: var(--col3);
+}
+
+h1 {
+    color: var(--col1); 
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: -2px;
+    background-color: var(--col3);
+    padding: 20px;
+    margin-top: 80px;
+} 
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
