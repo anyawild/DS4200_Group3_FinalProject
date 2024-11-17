@@ -1,37 +1,62 @@
 :root {
-    --bg : rgb(153, 188, 194);;
+    --bg : rgb(182, 205, 216);
     --col1 : rgb(95, 146, 171);
-    --col2 : rgb(228, 241, 242);
-    --col3 : rgb(247, 248, 255);
-    --col1_ : rgba(106, 163, 203, 0.5);
-    --col3_ : rgba(249, 247, 255, 0.5);
+    --col2 : rgb(251, 252, 254);
 }
 
 
 body {
     background-color : var(--bg);
     background-attachment: fixed;
-    font-family: "Lucida Console", monospace;
-    color: var(--col3);
+    font-family: Monospace;
+    color: var(--col2);
+    text-align: center;
 }
 
 h1 {
-    color: var(--col1); 
+    color: var(--bg); 
     font-size: 300%;
-    text-align: center;
     letter-spacing: -2px;
-    background-color: var(--col3);
+    background-color: var(--col1);
     padding: 20px;
-    margin-top: 80px;
 } 
 
 h2 {
+    color: var(--col1);
     font-size: 200%;
-    text-align: center;
     padding: 5px;
+}
+h3 {
+    color: var(--col1);
 }
 
 p {
-    text-align: center;
+    font-size: 110%;
     margin: 20px;
+    background-color: var(--col2);
+    color: var(--col1); 
+    padding: 20px;
+}
+
+ /* refrences formatting */
+ .refrences {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.refrences p {
+    color: var(--bg);
+    background-color: var(--col1);
+    padding: 30px;
+    margin: 20px;
+    font-size: 125%;
+}
+.refrences li p:hover {
+    background-color: var(--col2);
+    color: var(--col1);
+}
+
+a:visited{
+    color: var(--col1);
 }

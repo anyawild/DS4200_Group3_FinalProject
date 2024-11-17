@@ -13,6 +13,7 @@
     <h3>Colin Carnish, Anya Wild, Talal Fakhoury, Alex Tu</h3>
 
     <p>
+        <b>Introduction:</b><br><br>
         Throughout the past decades, the topic of global climate change and what can be done
         about it has become one of the most commonly contested topics in the world. Few indicators
         for climate change are more commonly used and studied than the amount of carbon emissions 
@@ -30,5 +31,41 @@
         points in which the most optimization is needed.
     </p>
 
+    <ul class="refrences">
+        <li><p id="r1">“Carbon dioxide emissions and economic growth: Panel data evidence from developing 
+            countries” (Narayan)</p></li>
+        <li><p id="r2">“The relationship between carbon dioxide emission and economic growth: Hierarchical 
+            structure methods” (Deviren)</p></li>
+    </ul>
+
+    <!-- link for first ref -->
+    <script>
+        const r1Button = document.getElementById('r1')
+        r1Button.addEventListener('click', function() {
+            link = 'https://www.sciencedirect.com/science/article/pii/S0301421509006880';
+            window.open(link, '_blank');
+        })
+    </script>
+    <!-- link for second ref -->
+    <script>
+        const r2Button = document.getElementById('r2')
+        r2Button.addEventListener('click', function() {
+            link = 'https://www.sciencedirect.com/science/article/pii/S0378437116001497#s000030';
+            window.open(link, '_blank');
+        })
+    </script>
+
+    <p>
+        <b>About Our Data:</b><br><br>
+        Our dataset is a simplified version of the ‘Data on CO2 and Greenhouse Gas Emissions’
+        dataset maintained by Our World in Data (OWID). This larger dataset is updated regularly to 
+        include metrics about global CO2 emissions, and information about it was obtained from GitHub 
+        <a href='https://github.com/owid/co2-data/blob/master/README.md'>(link)</a>. To produce our final 
+        dataset, we downloaded the OWID dataset, filtered for relevant columns, and removed rows with 
+        years before 1990. This work was done in a Jupyter Notebook file and produced a CSV with attributes 
+        about each country (name, abbreviation, population, GDP) and its CO2 emissions (without land-use 
+        change (LUC) emissions, with LUC, per capita, per GDP, per unit of energy, as well as split by 
+        each industry) from 1990-2022.
+    </p>
 </body>
 </html>
