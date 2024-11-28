@@ -1,7 +1,7 @@
 :root {
     --bg : rgb(182, 205, 216);
     --col1 : rgb(95, 146, 171);
-    --col2 : rgb(251, 252, 254);
+    --col2 : rgb(251, 252, 254); 
 }
 
 
@@ -59,4 +59,18 @@ p {
 
 a:visited{
     color: var(--col1);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    outline-style: solid;
+    outline-color: var(--bg);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin: 0px;
+    margin-top: -15px;
 }
