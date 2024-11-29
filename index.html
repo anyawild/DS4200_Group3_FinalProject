@@ -68,27 +68,43 @@
         each industry) from 1990-2022.
     </p>
 
-    <div class="column"><p>
-        <b>Static Visualization 1:</b><br><br>
-        <img src="static1.png"><br><br>
-        This side by side static visualization shows the trends of both CO2 emissions and GDP in the years
-        since 2000, divided by continent. Displaying them side by side allows us to see whether or not there
-        is a pattern shared by these plots, in order to find a connection between these attributes. As we can
-        see, there is a clear matching trend of increasing CO2 and increasing GDP over these years, with Asia
-        having the most obvious upward trend. We can also see how, in general, continents with countries of 
-        higher GDPs have higher CO2 emissions.
-    </p></div>
+    <div class="column-container">
+        <div class="column"><p>
+            <b>GDP and CO2 Emissions Over Time:</b><br><br>
+            <img src="static1.png"><br><br>
+            This side by side static visualization shows the trends of both CO2 emissions and GDP in the years
+            since 2000, divided by continent. Displaying them side by side allows us to see whether or not there
+            is a pattern shared by these plots, in order to find a connection between these attributes. As we can
+            see, there is a clear matching trend of increasing CO2 and increasing GDP over these years, with Asia
+            having the most obvious upward trend. We can also see how, in general, continents with countries of 
+            higher GDPs have higher CO2 emissions.
+        </p></div>
 
-    <div class="column"><p>
-        <b>Static Visualization 2:</b><br><br>
-        <br><br>
-    </p></div>
+        <div class="column"><p>
+            <b>Static Visualization 2:</b><br><br>
+            <img src="static1.png"><br><br>
+            This is filler for when 2nd static visualization is ready.
+        </p></div>
+    </div>
 
-    <!-- <p>
-        <b>Static Visualization 3:</b><br><br>
-        <br><br>
-    </p> -->
+    <div id="static2"><p><b>CO2 Emissions By Industry:</b></p>
+        <div class="svg">
+            <script src='https://d3js.org/d3.v7.min.js'></script>
+            <script src='static2_d3.js'></script>
+        </div>
+        <p>
+            This last static visualization made using JavaScript's D3 library shows how CO2 emissions compare when split 
+            by industry. Importantly, we can see that the two biggest contributing industries are coal and oil,
+            with the next biggest being gas. All three of these industries are considered fossil fuel industries,
+            and thus, this graph indicates that an important way to lower CO2 emissions could be to decrease 
+            production of fossil fuels. Also, it is interesting to note that the fourth biggest contributor of CO2
+            emissions is 'Land Use Change', or the process through which land is utilized or transformed.
+        </p>
+    </div>
 
-
+    <p>
+        <b>Final Conclusions:</b><br><br>
+        insert conclusion paragraph
+    </p>
 </body>
 </html>

@@ -1,6 +1,7 @@
 :root {
     --bg : rgb(182, 205, 216);
     --col1 : rgb(95, 146, 171);
+    /* --col2 : red; */
     --col2 : rgb(251, 252, 254); 
 }
 
@@ -68,9 +69,26 @@ img {
     outline-color: var(--bg);
 }
 
+.column-container {
+    display: flex;
+    width: 100%;
+}
 .column {
-    float: left;
-    width: 50%;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+    background-color: var(--col2);
+}
+
+#static2 {
+    padding-top: 10px;
+    background-color: var(--col2);
+    margin: 20px;
+}
+
+#static2 p {
     margin: 0px;
-    margin-top: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
