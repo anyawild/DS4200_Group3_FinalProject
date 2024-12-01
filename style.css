@@ -92,3 +92,21 @@ img {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: Monospace;
+    background-color: var(--col1);
+    color: var(--col2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: var(--col2);
+    color: var(--col1);
+    transform: scale(1.05);
+}
