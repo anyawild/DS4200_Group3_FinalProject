@@ -89,6 +89,12 @@ img {
     padding-right: 40px;
 }
 
+.static3_ p {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #svg-container {
     width: 100%;
     height: auto;
