@@ -1,3 +1,4 @@
+/* variables */
 :root {
     --bg : rgb(208, 224, 232);
     --col1 : rgb(62, 114, 139);
@@ -5,7 +6,7 @@
     --col2 : rgb(246, 252, 254);
 }
 
-
+/* body, headers, paragraph base format */
 body {
     background-color : var(--bg);
     background-attachment: fixed;
@@ -14,7 +15,6 @@ body {
     text-align: center;
     font-size: 150%;
 }
-
 h1 {
     color: var(--bg); 
     font-size: 350%;
@@ -22,7 +22,6 @@ h1 {
     background-color: var(--col1);
     padding: 20px;
 } 
-
 h2 {
     color: var(--col1);
     font-size: 200%;
@@ -32,7 +31,6 @@ h3 {
     font-size: 150%;
     color: var(--col1);
 }
-
 p {
     font-size: 110%;
     margin: 20px;
@@ -59,11 +57,11 @@ p {
     background-color: var(--col2);
     color: var(--col1);
 }
-
 a:visited{
     color: var(--col1);
 }
 
+ /* first two static viz formatting */
 img {
     min-width: 100%;
     max-width: 100%;
@@ -73,7 +71,6 @@ img {
     outline-style: solid;
     outline-color: var(--bg);
 }
-
 .column {
     padding: 0px;
     margin-left: 20px;
@@ -81,6 +78,7 @@ img {
     background-color: var(--col2);
 }
 
+ /* third static viz formatting - D3 */
 .static3_ {
     margin:20px;
     background-color: var(--col2);
@@ -88,13 +86,11 @@ img {
     padding-left: 40px;
     padding-right: 40px;
 }
-
 .static3_ p {
     padding: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 #svg-container {
     width: 100%;
     height: auto;
@@ -109,6 +105,7 @@ svg {
     display: block;
 }
 
+ /* navigation buttons formatting */
 .button {
     padding: 10px 20px;
     font-size: 1rem;
@@ -120,7 +117,6 @@ svg {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
-
 .button:hover {
     background-color: var(--col2);
     color: var(--col1);
