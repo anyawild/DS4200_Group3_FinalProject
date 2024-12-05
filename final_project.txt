@@ -1,0 +1,42 @@
+Link to website: https://anyawild.github.io/DS4200_Group3_FinalProject/ 
+-------------------------------------------------------------
+
+Notes about visualizations:
+[[[[[[[[[[[
+list the mark and channels for the figure, and discuss why you choose 
+this type of visualization. If you have include color or interaction in 
+the figure, you need to explain why including these can benefit the 
+visualization (Any additional information you bring to the visualization).
+]]]]]]]]]]]
+
+Static 1 - 
+
+Static 2 - 
+
+Static 3 - 
+
+Interactive 1 - 
+
+Interactive 2 -
+
+
+
+
+
+[[[[[[[[[[Notes for improvement]]]]]]]]]]
+Check your year variable, in vis1 you treat it as a categorical variable 
+and in vis2 you treat it as numerical. I will prefer the numerical one. A 
+small point in the source of CO2 plot, you see that sharp drop in 2020 and 
+2008, due to Covid and economic crisis (I think). Think about to sort the bar 
+plot, by values.
+
+Change to another color map, a sequential one. Good to have the feature 
+choices. Make sure you have clear instruction and explanation for the data 
+visualization. Adjust the paragraph position. Right now it has a huge space 
+between the paragraph and figure. In general, I think you have done a lot of 
+comparison between GDP and CO2 emission. Can you just do a scatter plot between 
+this two and allow people to filter on different year/source. I prefer to see 
+different type of interactions instead of only two similar maps.
+
+You may need to make the fonts larger and make the contrasts between the color 
+stronger. Avoid the word static/interactive in the title.
