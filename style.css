@@ -1,8 +1,8 @@
 :root {
-    --bg : rgb(182, 205, 216);
-    --col1 : rgb(95, 146, 171);
+    --bg : rgb(208, 224, 232);
+    --col1 : rgb(62, 114, 139);
     /* --col2 : red; */
-    --col2 : rgb(251, 252, 254); 
+    --col2 : rgb(246, 252, 254);
 }
 
 
@@ -12,11 +12,12 @@ body {
     font-family: Monospace;
     color: var(--col2);
     text-align: center;
+    font-size: 150%;
 }
 
 h1 {
     color: var(--bg); 
-    font-size: 300%;
+    font-size: 350%;
     letter-spacing: -2px;
     background-color: var(--col1);
     padding: 20px;
@@ -28,6 +29,7 @@ h2 {
     padding: 5px;
 }
 h3 {
+    font-size: 150%;
     color: var(--col1);
 }
 
