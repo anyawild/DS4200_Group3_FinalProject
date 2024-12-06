@@ -23,11 +23,11 @@ Static 3 - Total CO2 Emissions by Source:
     fit the x-axis tick labels, we chose to display them at an angle.
 
 Interactive 1 - World CO2 Emissions by Different Metrics and Industries:
-    This interactive chloropleth map uses a sequential color scheme (light blue to dark blue) to
+    This interactive chloropleth map uses a sequential color scheme (lighter yellow to darker red) to
     show clear contrast between countries in terms of the various metrics shown on the map.
-    The map is designed to give a broad overview on where countries stand in a variety of different
-    ways in relation to CO2 emissions. It utilizes colors to clearly show regions and specific countries
-    that have high emissions across any of the given categories.
+    The color scheme also works to illustrate the main point that higher emissions contribute
+    to rising global temperatures, so the darker red for high emissions countries serves to show
+    the main point about countries that contribute the most to global warming.
 
 Interactive 2 -
 
