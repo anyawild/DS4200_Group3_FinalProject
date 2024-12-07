@@ -15,7 +15,15 @@ Static 1 - GDP and CO2 Emissions Over Time:
     we chose to display the y-axis using scientific notation to save space and improve readability. 
 
 Static 2 - CO2 Emissions Over Time by Source:
-
+    This static line chart visualizes CO2 emissions over time from five major sources: Coal, Oil, Gas, Cement, and Flaring. 
+    Line marks represent trends over time, with point marks emphasizing individual data points for each year, 
+    while the channels of color and position differentiate between sources and map emission levels to the y-axis and years to the x-axis. 
+    The Tableau10 color scale ensures high contrast for clear distinction between sources, and gridlines with bold labels enhance readability, 
+    complemented by the consistent use of a Monospace font. 
+    This visualization effectively contributes to the intended message by providing a clear breakdown of emissions by source, 
+    highlighting long-term trends, such as the dominance of coal and oil and the steady rise in gas emissions. 
+    By emphasizing these patterns, the chart helps contextualize the varying contributions of these sources to global emissions, 
+    supporting discussions on climate change and policy implications.
 
 Static 3 - Total CO2 Emissions by Source:
     This D3 bar chart uses bar marks to show differences in total CO2 emissions for each 
