@@ -1,36 +1,35 @@
+/* variables */
 :root {
-    --bg : rgb(182, 205, 216);
-    --col1 : rgb(95, 146, 171);
-    /* --col2 : red; */
-    --col2 : rgb(251, 252, 254); 
+    --bg : rgb(208, 224, 232);
+    --col1 : rgb(62, 114, 139);
+    --col2 : rgb(246, 252, 254);
 }
 
-
+/* body, headers, paragraph base format */
 body {
     background-color : var(--bg);
     background-attachment: fixed;
     font-family: Monospace;
     color: var(--col2);
     text-align: center;
+    font-size: 150%;
 }
-
 h1 {
     color: var(--bg); 
-    font-size: 300%;
+    font-size: 350%;
     letter-spacing: -2px;
     background-color: var(--col1);
     padding: 20px;
 } 
-
 h2 {
     color: var(--col1);
     font-size: 200%;
     padding: 5px;
 }
 h3 {
+    font-size: 150%;
     color: var(--col1);
 }
-
 p {
     font-size: 110%;
     margin: 20px;
@@ -57,12 +56,13 @@ p {
     background-color: var(--col2);
     color: var(--col1);
 }
-
 a:visited{
     color: var(--col1);
 }
 
+ /* first two static viz formatting */
 img {
+    min-width: 100%;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -70,7 +70,6 @@ img {
     outline-style: solid;
     outline-color: var(--bg);
 }
-
 .column {
     padding: 0px;
     margin-left: 20px;
@@ -78,18 +77,34 @@ img {
     background-color: var(--col2);
 }
 
-#static2 {
-    padding-top: 10px;
+ /* third static viz formatting - D3 */
+.static3_ {
+    margin:20px;
     background-color: var(--col2);
-    margin: 20px;
+    color: var(--col1); 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.static3_ p {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#svg-container {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    outline-style: solid;
+    outline-color: var(--bg);
+}
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-#static2 p {
-    margin: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
+ /* navigation buttons formatting */
 .button {
     padding: 10px 20px;
     font-size: 1rem;
@@ -101,7 +116,6 @@ img {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
-
 .button:hover {
     background-color: var(--col2);
     color: var(--col1);

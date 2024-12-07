@@ -1,0 +1,34 @@
+Link to website: https://anyawild.github.io/DS4200_Group3_FinalProject/ 
+-------------------------------------------------------------
+
+Notes about visualizations:
+
+ALL static:
+    While we tried to use an all-blue color scheme to differentiate lines and 
+    bars in our visualizations, we found that we needed more constrast between 
+    the colors and so decided on the Tableau10 color scale. This scale, combined
+    with the font family Monospace, is consistent throughout our page.
+
+Static 1 - GDP and CO2 Emissions Over Time:
+    This Altair side by side line plot used line marks as well as point marks to show
+    how each attribute, for each continent, changed over time. Also in this visualization, 
+    we chose to display the y-axis using scientific notation to save space and improve readability. 
+
+Static 2 - CO2 Emissions Over Time by Source:
+    This Matplotlib line chart uses line and point marks to emphasize individual CO2 emission sums from 
+    each source of CO2, for each year of the data. This visualization also uses color and position channels 
+    to differentiate between sources of emission levels, matching our other static visualizations.
+
+Static 3 - Total CO2 Emissions by Source:
+    This D3 bar chart uses bar marks to show differences in total CO2 emissions for each 
+    industry source, with each color correlating with a different industry. Also, in order to 
+    fit the x-axis tick labels, we chose to display them at an angle.
+
+Interactive 1 - World CO2 Emissions by Different Metrics and Industries:
+    This interactive chloropleth map uses a sequential color scheme (lighter yellow to darker red) to
+    show clear contrast between countries in terms of the various metrics shown on the map.
+    The color scheme also works to illustrate the main point that higher emissions contribute
+    to rising global temperatures, so the darker red for high emissions countries serves to show
+    the main point about countries that contribute the most to global warming.
+
+Interactive 2 -
