@@ -3,7 +3,7 @@ Link to website: https://anyawild.github.io/DS4200_Group3_FinalProject/
 
 Notes about visualizations:
 
-All static:
+ALL static:
     While we tried to use an all-blue color scheme to differentiate lines and 
     bars in our visualizations, we found that we needed more constrast between 
     the colors and so decided on the Tableau10 color scale. This scale, combined
@@ -15,15 +15,9 @@ Static 1 - GDP and CO2 Emissions Over Time:
     we chose to display the y-axis using scientific notation to save space and improve readability. 
 
 Static 2 - CO2 Emissions Over Time by Source:
-    This static line chart visualizes CO2 emissions over time from five major sources: Coal, Oil, Gas, Cement, and Flaring. 
-    Line marks represent trends over time, with point marks emphasizing individual data points for each year, 
-    while the channels of color and position differentiate between sources and map emission levels to the y-axis and years to the x-axis. 
-    The Tableau10 color scale ensures high contrast for clear distinction between sources, and gridlines with bold labels enhance readability, 
-    complemented by the consistent use of a Monospace font. 
-    This visualization effectively contributes to the intended message by providing a clear breakdown of emissions by source, 
-    highlighting long-term trends, such as the dominance of coal and oil and the steady rise in gas emissions. 
-    By emphasizing these patterns, the chart helps contextualize the varying contributions of these sources to global emissions, 
-    supporting discussions on climate change and policy implications.
+    This Matplotlib line chart uses line and point marks to emphasize individual CO2 emission sums from 
+    each source of CO2, for each year of the data. This visualization also uses color and position channels 
+    to differentiate between sources of emission levels, matching our other static visualizations.
 
 Static 3 - Total CO2 Emissions by Source:
     This D3 bar chart uses bar marks to show differences in total CO2 emissions for each 
@@ -38,15 +32,3 @@ Interactive 1 - World CO2 Emissions by Different Metrics and Industries:
     the main point about countries that contribute the most to global warming.
 
 Interactive 2 -
-
-
-
-
-
-Change to another color map, a sequential one. Good to have the feature 
-choices. Make sure you have clear instruction and explanation for the data 
-visualization. Adjust the paragraph position. Right now it has a huge space 
-between the paragraph and figure. In general, I think you have done a lot of 
-comparison between GDP and CO2 emission. Can you just do a scatter plot between 
-this two and allow people to filter on different year/source. I prefer to see 
-different type of interactions instead of only two similar maps.
