@@ -32,3 +32,9 @@ Interactive 1 - World CO2 Emissions by Different Metrics and Industries:
     the main point about countries that contribute the most to global warming.
 
 Interactive 2 -
+    This interactive scatter plot displays the relationship between CO2 emissions and GDP of the countries
+    in this dataset. The use of a sequential color scheme places more emphasis on countries that have
+    an excessive ratio of emissions to their GDPs indicating inefficiencies in countries of darker shades
+    on the scatter plot. In contrast countries with more efficient emission to GDP ratios have lighter shades
+    of color which allows the more inefficient countries to be highlighted as they need to be more accountable
+    for their excessive contribution to global emissions despite having lesser GDP.
